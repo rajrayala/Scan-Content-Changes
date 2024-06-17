@@ -40,15 +40,19 @@ def update_repo(file_path, commit_message):
 
     # Set up Git config with token
     remote_url = f'https://{os.getenv("GITHUB_ACTOR")}:{os.getenv("GITHUB_TOKEN")}@github.com/{os.getenv("GITHUB_REPOSITORY")}.git'
-    
-    if 'auth_origin' not in repo.remotes:
-        repo.create_remote('auth_origin', url=remote_url)
-    else:
-        repo.remote('auth_origin').set_url(remote_url)
 
+    try:
+        # Check if 'auth_origin' remote exists
+        auth_origin = repo.remote('auth_origin')
+        auth_origin.set_url(remote_url)
+    except ValueError:
+        # Create 'auth_origin' remote if it doesn't exist
+        repo.create_remote('auth_origin', url=remote_url)
+
+    # Push to the main branch
     repo.git.add(file_path)
     repo.index.commit(commit_message)
-    repo.remote(name='auth_origin').push(refspec='HEAD:refs/heads/main')
+    auth_origin.push(refspec='HEAD:refs/heads/main')
 
 def update_change_log(url, changes):
     change_log_file = 'changeLog.json'
