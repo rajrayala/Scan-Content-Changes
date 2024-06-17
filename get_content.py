@@ -35,10 +35,17 @@ def compare_json(new_data, old_data):
     return DeepDiff(old_data, new_data, ignore_order=True).to_dict()
 
 def update_repo(file_path, commit_message):
-    repo = git.Repo(os.getenv('GITHUB_WORKSPACE'))
+    repo_path = os.getenv('GITHUB_WORKSPACE')
+    repo = git.Repo(repo_path)
+
+    # Set up Git config
+    remote_url = f'https://{os.getenv("GITHUB_ACTOR")}:{os.getenv("GITHUB_TOKEN")}@github.com/{os.getenv("GITHUB_REPOSITORY")}.git'
+    repo.create_remote('auth_origin', url=remote_url)
+    repo.git.pull('auth_origin', 'main')
+    
     repo.index.add([file_path])
     repo.index.commit(commit_message)
-    repo.remote(name='origin').push()
+    repo.remote(name='auth_origin').push(refspec='HEAD:refs/heads/main')
 
 def update_change_log(url, changes):
     change_log_file = 'changeLog.json'
