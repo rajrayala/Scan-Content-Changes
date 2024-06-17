@@ -26,4 +26,4 @@ jobs:
     - name: Run scan script
       env:
         GITHUB_WORKSPACE: ${{ github.workspace }}
-      run: python your_script.py
+      run: python get_content.py
