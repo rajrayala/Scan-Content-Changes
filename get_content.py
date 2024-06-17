@@ -35,7 +35,13 @@ def compare_json(new_data, old_data):
     return DeepDiff(old_data, new_data, ignore_order=True).to_dict()
 
 def update_repo(file_path, commit_message):
-    repo = git.Repo(os.getenv('GITHUB_WORKSPACE'))
+    repo_path = os.getenv('GITHUB_WORKSPACE')
+    repo = git.Repo(repo_path)
+    
+    # Set up Git config
+    git_credential = f'https://{os.getenv("GITHUB_ACTOR")}:{os.getenv("GITHUB_TOKEN")}@github.com/{os.getenv("GITHUB_REPOSITORY")}.git'
+    repo.git.config('remote.origin.url', git_credential)
+    
     repo.index.add([file_path])
     repo.index.commit(commit_message)
     repo.remote(name='origin').push()
