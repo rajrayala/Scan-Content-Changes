@@ -1,0 +1,29 @@
+name: Daily Website Content Scan
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 deepdiff gitpython
+
+    - name: Run scan script
+      env:
+        GITHUB_WORKSPACE: ${{ github.workspace }}
+      run: python your_script.py
