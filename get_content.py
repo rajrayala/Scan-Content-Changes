@@ -38,14 +38,17 @@ def update_repo(file_path, commit_message):
     repo_path = os.getenv('GITHUB_WORKSPACE')
     repo = git.Repo(repo_path)
 
-    # Set up Git config
-    remote_url = f'https://{os.getenv("GITHUB_ACTOR")}:{os.getenv("GITHUB_TOKEN")}@github.com/{os.getenv("GITHUB_REPOSITORY")}.git'
-    repo.create_remote('auth_origin', url=remote_url)
-    repo.git.pull('auth_origin', 'main')
+    # Set up Git config with token
+    remote_name = 'auth_origin'
+    if remote_name not in repo.remotes:
+        remote_url = f'https://{os.getenv("GITHUB_ACTOR")}:{os.getenv("GITHUB_TOKEN")}@github.com/{os.getenv("GITHUB_REPOSITORY")}.git'
+        repo.create_remote(remote_name, url=remote_url)
+    else:
+        repo.remote(remote_name).set_url(f'https://{os.getenv("GITHUB_ACTOR")}:{os.getenv("GITHUB_TOKEN")}@github.com/{os.getenv("GITHUB_REPOSITORY")}.git')
     
-    repo.index.add([file_path])
+    repo.git.add(file_path)
     repo.index.commit(commit_message)
-    repo.remote(name='auth_origin').push(refspec='HEAD:refs/heads/main')
+    repo.remote(name=remote_name).push(refspec='HEAD:refs/heads/main')
 
 def update_change_log(url, changes):
     change_log_file = 'changeLog.json'
