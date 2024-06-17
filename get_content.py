@@ -47,7 +47,7 @@ def update_repo(file_path, commit_message):
         auth_origin.set_url(remote_url)
     except ValueError:
         # Create 'auth_origin' remote if it doesn't exist
-        repo.create_remote('auth_origin', url=remote_url)
+        auth_origin = repo.create_remote('auth_origin', url=remote_url)
 
     # Push to the main branch
     repo.git.add(file_path)
