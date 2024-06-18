@@ -10,7 +10,7 @@ import datetime
 def read_urls_from_csv(csv_file_path):
     with open(csv_file_path, mode='r') as file:
         csv_reader = csv.reader(file)
-        urls = [row[0] for row in csv_reader]  # Fixed variable name
+        urls = [row[0] for row in csv_reader]
     return urls
 
 def fetch_clean_content(url):
@@ -55,12 +55,17 @@ def update_repo(file_path, commit_message):
     # Create a new tree with the updated file
     element = repo.create_git_blob(content, 'utf-8')
     tree_element = InputGitTreeElement(
-        path=file_path,
+        path=os.path.relpath(file_path, workspace),
         mode='100644',
         type='blob',
         sha=element.sha
     )
-    tree = repo.create_git_tree([tree_element], base_tree=commit.commit.tree.sha)
+
+    # Retrieve the base tree
+    base_tree = repo.get_git_tree(commit.commit.tree.sha)
+
+    # Create a new tree using the base tree
+    tree = repo.create_git_tree([tree_element], base_tree=base_tree)
 
     # Create a new commit with the new tree
     author = InputGitAuthor(
