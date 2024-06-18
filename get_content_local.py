@@ -70,81 +70,22 @@ def compare_json(new_data, old_data):
 def get_hashed_filename(url):
     return hashlib.sha256(url.encode('utf-8')).hexdigest() + '.json'
 
-def update_repo(file_path, commit_message):
-    token = os.getenv('GITHUB_TOKEN')
-    repo_name = os.getenv('GITHUB_REPOSITORY')
-    workspace = os.getenv('GITHUB_WORKSPACE')
-
-    g = Github(token)
-    repo = g.get_repo(repo_name)
-
-    with open(file_path, 'r') as file:
-        content = file.read()
-
-    ref = repo.get_git_ref("heads/main")
-    main_sha = ref.object.sha
-    commit = repo.get_commit(main_sha)
-
-    element = repo.create_git_blob(content, 'utf-8')
-    tree_element = InputGitTreeElement(
-        path=os.path.relpath(file_path, workspace),
-        mode='100644',
-        type='blob',
-        sha=element.sha
-    )
-
-    base_tree = repo.get_git_tree(commit.commit.tree.sha)
-    tree = repo.create_git_tree([tree_element], base_tree=base_tree)
-
-    author = InputGitAuthor(
-        name=os.getenv('GITHUB_ACTOR'),
-        email=f"{os.getenv('GITHUB_ACTOR')}@users.noreply.github.com"
-    )
-    new_commit = repo.create_git_commit(commit_message, tree, [commit.commit], author=author)
-
-    ref.edit(new_commit.sha)
-
-def update_change_log(url, changes):
-    change_log_file = 'changeLog.json'
-    if os.path.exists(change_log_file):
-        with open(change_log_file, 'r') as file:
-            change_log = json.load(file)
-    else:
-        change_log = []
-
-    change_entry = {
-        "url": url,
-        "changes": changes,
-        "timestamp": datetime.datetime.now().isoformat()
-    }
-    
-    change_log.insert(0, change_entry)
-    
-    with open(change_log_file, 'w') as file:
-        json.dump(change_log, file, indent=4)
-    
-    update_repo(change_log_file, f'Update change log for {url}')
-
 def main():
-    repo_path = os.getenv('GITHUB_WORKSPACE')
-    csv_file_path = os.path.join(repo_path, 'urls.csv')
+    csv_file_path = os.path.join('urls.csv')
 
     urls = read_urls_from_csv(csv_file_path)
 
     for url in urls:
         content = fetch_clean_content(url)
-        json_filename = os.path.join(repo_path, get_hashed_filename(url))
+        json_filename = os.path.join(get_hashed_filename(url))
         old_content = load_json(json_filename)
 
         if old_content:
             diff = compare_json(content, old_content)
             if diff:
-                update_change_log(url, diff)
                 save_json(content, json_filename)
-                update_repo(json_filename, f'Update content for {url}')
         else:
             save_json(content, json_filename)
-            update_repo(json_filename, f'Add new content for {url}')
 
 if __name__ == "__main__":
     main()
