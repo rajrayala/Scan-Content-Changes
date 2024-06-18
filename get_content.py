@@ -10,7 +10,7 @@ import datetime
 def read_urls_from_csv(csv_file_path):
     with open(csv_file_path, mode='r') as file:
         csv_reader = csv.reader(file)
-        urls = [row[0] for csv_reader in csv_reader]
+        urls = [row[0] for row in csv_reader]  # Fixed variable name
     return urls
 
 def fetch_clean_content(url):
