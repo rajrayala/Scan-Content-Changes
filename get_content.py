@@ -4,7 +4,7 @@ import requests
 import json
 from deepdiff import DeepDiff
 from bs4 import BeautifulSoup
-from github import Github, InputGitAuthor
+from github import Github, InputGitAuthor, InputGitTreeElement
 import datetime
 
 def read_urls_from_csv(csv_file_path):
@@ -54,12 +54,13 @@ def update_repo(file_path, commit_message):
 
     # Create a new tree with the updated file
     element = repo.create_git_blob(content, 'utf-8')
-    tree = repo.create_git_tree([{
-        "path": file_path,
-        "mode": "100644",
-        "type": "blob",
-        "sha": element.sha
-    }], base_tree=commit.commit.tree.sha)
+    tree_element = InputGitTreeElement(
+        path=file_path,
+        mode='100644',
+        type='blob',
+        sha=element.sha
+    )
+    tree = repo.create_git_tree([tree_element], base_tree=commit.commit.tree.sha)
 
     # Create a new commit with the new tree
     author = InputGitAuthor(
