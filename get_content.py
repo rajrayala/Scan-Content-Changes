@@ -4,7 +4,7 @@ import requests
 import json
 from deepdiff import DeepDiff
 from bs4 import BeautifulSoup
-import git
+from github import Github, InputGitAuthor
 import datetime
 
 def read_urls_from_csv(csv_file_path):
@@ -35,24 +35,41 @@ def compare_json(new_data, old_data):
     return DeepDiff(old_data, new_data, ignore_order=True).to_dict()
 
 def update_repo(file_path, commit_message):
-    repo_path = os.getenv('GITHUB_WORKSPACE')
-    repo = git.Repo(repo_path)
+    token = os.getenv('GITHUB_TOKEN')
+    repo_name = os.getenv('GITHUB_REPOSITORY')
+    workspace = os.getenv('GITHUB_WORKSPACE')
 
-    # Set up Git config with token
-    remote_url = f'https://{os.getenv("GITHUB_ACTOR")}:{os.getenv("GITHUB_TOKEN")}@github.com/{os.getenv("GITHUB_REPOSITORY")}.git'
+    g = Github(token)
+    repo = g.get_repo(repo_name)
 
-    try:
-        # Check if 'auth_origin' remote exists
-        auth_origin = repo.remote('auth_origin')
-        auth_origin.set_url(remote_url)
-    except ValueError:
-        # Create 'auth_origin' remote if it doesn't exist
-        auth_origin = repo.create_remote('auth_origin', url=remote_url)
+    with open(file_path, 'r') as file:
+        content = file.read()
 
-    # Push to the main branch
-    repo.git.add(file_path)
-    repo.index.commit(commit_message)
-    auth_origin.push(refspec='HEAD:refs/heads/main')
+    # Get the current branch reference
+    ref = repo.get_git_ref("heads/main")
+    main_sha = ref.object.sha
+
+    # Get the commit pointed to by the main branch
+    commit = repo.get_commit(main_sha)
+
+    # Create a new tree with the updated file
+    element = repo.create_git_blob(content, 'utf-8')
+    tree = repo.create_git_tree([{
+        "path": file_path,
+        "mode": "100644",
+        "type": "blob",
+        "sha": element.sha
+    }], base_tree=commit.commit.tree.sha)
+
+    # Create a new commit with the new tree
+    author = InputGitAuthor(
+        name=os.getenv('GITHUB_ACTOR'),
+        email=f"{os.getenv('GITHUB_ACTOR')}@users.noreply.github.com"
+    )
+    new_commit = repo.create_git_commit(commit_message, tree, [commit.commit], author=author)
+
+    # Update the reference to point to the new commit
+    ref.edit(new_commit.sha)
 
 def update_change_log(url, changes):
     change_log_file = 'changeLog.json'
@@ -96,11 +113,6 @@ def main():
         else:
             save_json(content, json_filename)
             update_repo(json_filename, f'Add new content for {url}')
-        
-        # Print information for each URL
-        print(f"Processed URL: {url}")
-        print(f"Content changes: {diff if diff else 'No changes'}")
-        print(f"JSON filename: {json_filename}")
 
 if __name__ == "__main__":
     main()
