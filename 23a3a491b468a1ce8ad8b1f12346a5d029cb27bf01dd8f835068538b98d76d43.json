@@ -1,0 +1,48 @@
+{
+    "div": {
+        "div": [
+            {
+                "nobr": {
+                    "b": "Search",
+                    "a": [
+                        "Images",
+                        "Maps",
+                        "Play",
+                        "YouTube",
+                        "News",
+                        "Gmail",
+                        "Drive",
+                        "\u00bb"
+                    ]
+                }
+            },
+            {
+                "nobr": "|"
+            }
+        ]
+    },
+    "center": {
+        "form": {
+            "table": {
+                "tr": {
+                    "td": {
+                        "a": "Advanced search"
+                    }
+                }
+            }
+        },
+        "span": {
+            "div": {
+                "div": {
+                    "a": [
+                        "Advertising",
+                        "Business Solutions",
+                        "About Google",
+                        "Google.com"
+                    ]
+                }
+            },
+            "p": "\u00a9 2024 -"
+        }
+    }
+}
