@@ -2,6 +2,15 @@
     {
         "url": "https://google.com",
         "changes": {
+            "iterable_item_removed": {
+                "root['div']['div'][0]['nobr']['a'][3]": "Chat"
+            }
+        },
+        "timestamp": "2024-06-19T19:14:44.672438"
+    },
+    {
+        "url": "https://google.com",
+        "changes": {
             "iterable_item_added": {
                 "root['div']['div'][0]['nobr']['a'][4]": "News"
             }
