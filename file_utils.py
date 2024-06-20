@@ -28,7 +28,7 @@ def sanitize_filename(url):
     return re.sub(r'[\\/*?:"<>|]', "_", url) + '.json'
 
 def update_change_log(url, changes):
-    change_log_file = 'changeLog.json'
+    change_log_file = 'change_log.json'
     if os.path.exists(change_log_file):
         with open(change_log_file, 'r') as file:
             try:

@@ -1,0 +1,20 @@
+[
+    {
+        "url": "https://google.com/drive",
+        "changes": {
+            "dictionary_item_added": [
+                "root['header']['div'][0]['div']['div'][0]['div']"
+            ]
+        },
+        "timestamp": "2024-06-20T15:00:22.903901"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "iterable_item_removed": {
+                "root['div']['div'][0]['nobr']['a'][5]": "Chat"
+            }
+        },
+        "timestamp": "2024-06-20T15:00:23.334652"
+    }
+]

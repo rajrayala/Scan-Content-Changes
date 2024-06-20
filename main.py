@@ -24,6 +24,10 @@ def convert_diff_to_serializable(diff):
 def main():
     repo_path = os.getenv('GITHUB_WORKSPACE', '.')
     csv_file_path = os.path.join(repo_path, 'urls.csv')
+    results_dir = os.path.join(repo_path, 'results')
+
+    # Ensure the results directory exists
+    os.makedirs(results_dir, exist_ok=True)
 
     urls = read_urls_from_csv(csv_file_path)
 
@@ -31,7 +35,7 @@ def main():
 
     for url in urls:
         content = fetch_clean_content(url)
-        json_filename = os.path.join(repo_path, sanitize_filename(url))
+        json_filename = os.path.join(results_dir, sanitize_filename(url))
         old_content = load_json(json_filename)
 
         if old_content:
