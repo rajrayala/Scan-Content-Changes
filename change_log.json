@@ -28,5 +28,20 @@
             }
         },
         "timestamp": "2024-06-27T00:42:33.342324"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Meet the US Doodle for Google student winner!"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-06-28T00:42:36.863796"
     }
 ]
