@@ -58,5 +58,20 @@
             }
         },
         "timestamp": "2024-07-17T00:43:56.945398"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Get a best-in-class camera at our best price of the year. Shop Pixel 8a"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-07-18T00:42:55.647824"
     }
 ]
