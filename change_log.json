@@ -88,5 +88,20 @@
             }
         },
         "timestamp": "2024-08-01T00:49:25.275161"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Let\u2019s go! Stay updated on the sports you love"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-08-02T00:43:59.009610"
     }
 ]
