@@ -103,5 +103,20 @@
             }
         },
         "timestamp": "2024-08-02T00:43:59.009610"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_added": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Discover what sports fans are searching for"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-08-03T00:43:19.358401"
     }
 ]
