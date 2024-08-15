@@ -149,5 +149,21 @@
             }
         },
         "timestamp": "2024-08-14T00:44:58.544613"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": "A new era of Pixel phones is here!",
+                            "a": "Watch event"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-08-15T00:43:02.248579"
     }
 ]
