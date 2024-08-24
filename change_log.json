@@ -180,5 +180,20 @@
             }
         },
         "timestamp": "2024-08-23T00:44:39.055410"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Meet the new Google Pixel 9 phones with AI built in"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-08-24T00:43:38.742321"
     }
 ]
