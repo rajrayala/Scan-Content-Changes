@@ -1,5 +1,8 @@
 from deepdiff import DeepDiff
-from deepdiff.model import PrettyOrderedSet
+
+class PrettyOrderedSet(set):
+    def __repr__(self):
+        return '[{}]'.format(", ".join(map(str, self)))
 
 def compare_json(new_data, old_data):
     diff = DeepDiff(old_data, new_data, ignore_order=True, verbose_level=2).to_dict()
