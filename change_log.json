@@ -211,5 +211,21 @@
             }
         },
         "timestamp": "2024-09-17T17:32:55.127535"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Register to vote",
+                            "span": "ahead of the 2024 election"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-09-19T00:49:22.176378"
     }
 ]
