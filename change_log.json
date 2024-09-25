@@ -242,5 +242,20 @@
             }
         },
         "timestamp": "2024-09-23T19:08:39.627162"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "See how Google AI is helping firefighters detect wildfires"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-09-25T00:51:42.570504"
     }
 ]
