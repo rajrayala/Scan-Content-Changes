@@ -110,16 +110,16 @@
                                                                             "div": {
                                                                                 "div": "Drive"
                                                                             }
-                                                                        },
-                                                                        {
-                                                                            "div": {
-                                                                                "div": "Meet"
-                                                                            }
                                                                         }
                                                                     ]
                                                                 },
                                                                 {
                                                                     "a": [
+                                                                        {
+                                                                            "div": {
+                                                                                "div": "Meet"
+                                                                            }
+                                                                        },
                                                                         {
                                                                             "div": {
                                                                                 "div": "Docs"
@@ -129,7 +129,11 @@
                                                                             "div": {
                                                                                 "div": "Sheets"
                                                                             }
-                                                                        },
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "a": [
                                                                         {
                                                                             "div": {
                                                                                 "div": "Slides"
@@ -138,6 +142,11 @@
                                                                         {
                                                                             "div": {
                                                                                 "div": "Chat"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "div": {
+                                                                                "div": "Vids"
                                                                             }
                                                                         }
                                                                     ]
@@ -509,14 +518,6 @@
                                                                                                 "Cloud storage"
                                                                                             ]
                                                                                         }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": [
-                                                                                                "Meet",
-                                                                                                "Video and voice conferencing"
-                                                                                            ]
-                                                                                        }
                                                                                     }
                                                                                 ]
                                                                             }
@@ -524,6 +525,14 @@
                                                                         {
                                                                             "div": {
                                                                                 "a": [
+                                                                                    {
+                                                                                        "div": {
+                                                                                            "div": [
+                                                                                                "Meet",
+                                                                                                "Video and voice conferencing"
+                                                                                            ]
+                                                                                        }
+                                                                                    },
                                                                                     {
                                                                                         "div": {
                                                                                             "div": [
@@ -539,7 +548,13 @@
                                                                                                 "Spreadsheets"
                                                                                             ]
                                                                                         }
-                                                                                    },
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "div": {
+                                                                                "a": [
                                                                                     {
                                                                                         "div": {
                                                                                             "div": [
@@ -553,6 +568,14 @@
                                                                                             "div": [
                                                                                                 "Chat",
                                                                                                 "Messaging for teams"
+                                                                                            ]
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "div": {
+                                                                                            "div": [
+                                                                                                "Vids",
+                                                                                                "Video editor"
                                                                                             ]
                                                                                         }
                                                                                     }
@@ -1011,14 +1034,6 @@
                                                                                             "Cloud storage"
                                                                                         ]
                                                                                     }
-                                                                                },
-                                                                                {
-                                                                                    "div": {
-                                                                                        "div": [
-                                                                                            "Meet",
-                                                                                            "Video and voice conferencing"
-                                                                                        ]
-                                                                                    }
                                                                                 }
                                                                             ]
                                                                         }
@@ -1026,6 +1041,14 @@
                                                                     {
                                                                         "div": {
                                                                             "a": [
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Meet",
+                                                                                            "Video and voice conferencing"
+                                                                                        ]
+                                                                                    }
+                                                                                },
                                                                                 {
                                                                                     "div": {
                                                                                         "div": [
@@ -1041,7 +1064,13 @@
                                                                                             "Spreadsheets"
                                                                                         ]
                                                                                     }
-                                                                                },
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "div": {
+                                                                            "a": [
                                                                                 {
                                                                                     "div": {
                                                                                         "div": [
@@ -1055,6 +1084,14 @@
                                                                                         "div": [
                                                                                             "Chat",
                                                                                             "Messaging for teams"
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Vids",
+                                                                                            "Video editor"
                                                                                         ]
                                                                                     }
                                                                                 }
