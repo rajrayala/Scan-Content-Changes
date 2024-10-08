@@ -252,7 +252,7 @@
                                                                             "a": [
                                                                                 {
                                                                                     "div": {
-                                                                                        "div": "Security"
+                                                                                        "div": "Security and trust"
                                                                                     }
                                                                                 },
                                                                                 {
@@ -715,8 +715,8 @@
                                                                                         {
                                                                                             "div": {
                                                                                                 "div": [
-                                                                                                    "Security",
-                                                                                                    "Protecting your data"
+                                                                                                    "Security and trust",
+                                                                                                    "Keep your data safe and compliant"
                                                                                                 ]
                                                                                             }
                                                                                         },
@@ -1231,8 +1231,8 @@
                                                                                     {
                                                                                         "div": {
                                                                                             "div": [
-                                                                                                "Security",
-                                                                                                "Protecting your data"
+                                                                                                "Security and trust",
+                                                                                                "Keep your data safe and compliant"
                                                                                             ]
                                                                                         }
                                                                                     },
