@@ -9670,5 +9670,21 @@
             }
         },
         "timestamp": "2024-10-12T01:02:02.930947"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": "Trick or trend?",
+                            "a": "Unmask this year\u2019s top trending costumes"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-10-13T01:07:10.148240"
     }
 ]
