@@ -9702,5 +9702,21 @@
             }
         },
         "timestamp": "2024-10-14T01:05:26.135845"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": "WNBA Finals are here!",
+                            "a": "Get real time updates"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-10-15T01:04:14.904928"
     }
 ]
