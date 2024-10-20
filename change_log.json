@@ -9734,5 +9734,21 @@
             }
         },
         "timestamp": "2024-10-19T01:03:22.382907"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": "Liberty vs Lynx.",
+                            "a": "Game 4 of the WNBA Finals is on YouTube TV"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-10-20T01:08:11.744166"
     }
 ]
