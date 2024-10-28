@@ -9804,5 +9804,21 @@
             }
         },
         "timestamp": "2024-10-27T01:07:56.951372"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": "It's Drug Take Back Day:",
+                            "a": "Dispose of unneeded medication today"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-10-28T01:06:28.875897"
     }
 ]
