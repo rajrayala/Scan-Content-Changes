@@ -9839,5 +9839,24 @@
             }
         },
         "timestamp": "2024-11-02T01:03:22.421494"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": [
+                                "Find out",
+                                "this election"
+                            ],
+                            "a": "how to vote"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-11-03T01:07:57.637673"
     }
 ]
