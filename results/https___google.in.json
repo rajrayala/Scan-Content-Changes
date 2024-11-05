@@ -34,7 +34,8 @@
         "div": {
             "div": {
                 "div": {
-                    "a": "Find out how to vote this election"
+                    "span": "Election Day is tomorrow.",
+                    "a": "Find where to vote"
                 }
             }
         },
