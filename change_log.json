@@ -9900,5 +9900,21 @@
             }
         },
         "timestamp": "2024-11-06T01:03:20.408693"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": "It\u2019s Election Day!",
+                            "a": "Find where to vote"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-11-07T01:03:08.871689"
     }
 ]
