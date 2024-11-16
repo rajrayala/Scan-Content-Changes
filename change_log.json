@@ -9931,5 +9931,20 @@
             }
         },
         "timestamp": "2024-11-15T01:06:49.465233"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Explore the top 100 most popular gifts of 2024"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-11-16T01:05:53.637850"
     }
 ]
