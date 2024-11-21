@@ -9961,5 +9961,20 @@
             }
         },
         "timestamp": "2024-11-20T01:07:07.517312"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Watch key talks on climate change from COP29"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-11-21T01:05:56.757756"
     }
 ]
