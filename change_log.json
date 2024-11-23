@@ -9976,5 +9976,20 @@
             }
         },
         "timestamp": "2024-11-21T01:05:56.757756"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_added": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Explore the Google Store this Black Friday for our best deals of the year"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-11-23T01:04:49.385691"
     }
 ]
