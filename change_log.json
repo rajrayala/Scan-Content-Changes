@@ -10022,5 +10022,21 @@
             }
         },
         "timestamp": "2024-11-26T01:06:59.852629"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": "Get in the game:",
+                            "a": "5 ways to discover chess during the World Championship"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-11-27T01:07:53.136077"
     }
 ]
