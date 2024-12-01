@@ -10057,5 +10057,24 @@
             }
         },
         "timestamp": "2024-11-30T01:05:22.121340"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": [
+                                "New!",
+                                "- Find Black Friday sales in one place"
+                            ],
+                            "a": "The Google Shopping deals hub"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-12-01T01:17:08.111748"
     }
 ]
