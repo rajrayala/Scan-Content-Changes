@@ -31,6 +31,14 @@
                 }
             }
         },
+        "div": {
+            "div": {
+                "div": {
+                    "a": "Shop the best deals",
+                    "span": "this Cyber Monday on the Google Shopping deals hub"
+                }
+            }
+        },
         "span": {
             "div": {
                 "div": {
