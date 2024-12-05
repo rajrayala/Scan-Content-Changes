@@ -10107,5 +10107,20 @@
             }
         },
         "timestamp": "2024-12-04T01:09:01.190290"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Use your imagination and AI to create a unique chess set"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-12-05T01:09:12.439936"
     }
 ]
