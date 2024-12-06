@@ -31,6 +31,14 @@
                 }
             }
         },
+        "div": {
+            "div": {
+                "div": {
+                    "a": "Learn practical AI skills",
+                    "span": "with training and tools from Google"
+                }
+            }
+        },
         "span": {
             "div": {
                 "div": {
