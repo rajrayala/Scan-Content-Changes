@@ -10138,5 +10138,21 @@
             }
         },
         "timestamp": "2024-12-06T01:08:23.240540"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Learn practical AI skills",
+                            "span": "with training and tools from Google"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-12-07T01:08:23.052518"
     }
 ]
