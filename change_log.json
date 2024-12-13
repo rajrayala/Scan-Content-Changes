@@ -10169,5 +10169,20 @@
             }
         },
         "timestamp": "2024-12-12T01:08:38.296643"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "New! Gemini 2.0: Learn about our most capable AI model yet"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-12-13T01:08:46.244985"
     }
 ]
