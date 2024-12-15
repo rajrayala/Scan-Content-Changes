@@ -10199,5 +10199,20 @@
             }
         },
         "timestamp": "2024-12-14T01:06:24.183221"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "See what the world searched for in 2024"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-12-15T01:12:31.212707"
     }
 ]
