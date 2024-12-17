@@ -31,6 +31,14 @@
                 }
             }
         },
+        "div": {
+            "div": {
+                "div": {
+                    "span": "New!",
+                    "a": "Turn your notes and documents into AI Audio Overviews with NotebookLM"
+                }
+            }
+        },
         "span": {
             "div": {
                 "div": {
