@@ -10261,5 +10261,29 @@
             }
         },
         "timestamp": "2024-12-19T01:06:41.050678"
+    },
+    {
+        "url": "https://google.com/drive",
+        "changes": {
+            "iterable_item_added": {
+                "root['div']['div'][1]['footer']['div']['div'][1]['div'][4]['a'][24]": "Italiano"
+            }
+        },
+        "timestamp": "2024-12-20T01:03:42.540357"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "Explore 100 of the most searched gifts of 2024"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-12-20T01:03:42.707616"
     }
 ]
