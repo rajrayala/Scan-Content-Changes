@@ -10300,5 +10300,20 @@
             }
         },
         "timestamp": "2024-12-21T01:02:43.601405"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "5 ways Gemini can help during the Holidays"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-12-22T01:07:55.282131"
     }
 ]
