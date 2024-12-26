@@ -10331,5 +10331,21 @@
             }
         },
         "timestamp": "2024-12-25T01:02:55.784032"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": "Santa's on his way!",
+                            "a": "Follow his journey around the world"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-12-26T01:02:59.895426"
     }
 ]
