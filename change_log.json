@@ -10362,5 +10362,20 @@
             }
         },
         "timestamp": "2024-12-30T01:05:22.021814"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "a": "President Jimmy Carter, 1924 - 2024"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2024-12-31T01:03:13.876436"
     }
 ]
