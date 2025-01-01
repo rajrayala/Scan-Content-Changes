@@ -10377,5 +10377,17 @@
             }
         },
         "timestamp": "2024-12-31T01:03:13.876436"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "values_changed": {
+                "root['center']['span']['p']": {
+                    "new_value": "\u00a9 2025 -",
+                    "old_value": "\u00a9 2024 -"
+                }
+            }
+        },
+        "timestamp": "2025-01-01T01:08:22.937688"
     }
 ]
