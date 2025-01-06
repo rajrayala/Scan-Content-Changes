@@ -11105,5 +11105,21 @@
             }
         },
         "timestamp": "2025-01-05T01:08:44.660562"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": "Score one final special offer for",
+                            "a": "NFL Sunday Ticket"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2025-01-06T01:06:56.073458"
     }
 ]
