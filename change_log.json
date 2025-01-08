@@ -11140,5 +11140,24 @@
             }
         },
         "timestamp": "2025-01-07T01:04:42.463723"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": [
+                                "Upgraded your electronics over the holidays?",
+                                "old devices"
+                            ],
+                            "a": "Find where to recycle"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2025-01-08T01:04:55.261223"
     }
 ]
