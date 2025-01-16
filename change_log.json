@@ -11189,5 +11189,35 @@
             }
         },
         "timestamp": "2025-01-11T01:05:14.720687"
+    },
+    {
+        "url": "https://google.com/drive",
+        "changes": {
+            "iterable_item_removed": {
+                "root['div']['div'][1]['footer']['div']['div'][1]['div'][1]['details'][4]['div']['div'][0]": {
+                    "a": {
+                        "span": "Gemini for Workspace"
+                    }
+                },
+                "root['div']['div'][1]['footer']['div']['div'][1]['div'][2]['ul'][2]['li'][1]['ul']['li'][0]": {
+                    "a": {
+                        "span": "Gemini for Workspace"
+                    }
+                },
+                "root['div']['main']['section'][2]['div']['div']['div']['div'][0]": {
+                    "gws-tooltip": {
+                        "div": {
+                            "span": "Premium feature"
+                        },
+                        "gws-popover": {
+                            "div": {
+                                "p": "This feature is available on"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2025-01-16T01:03:07.201044"
     }
 ]

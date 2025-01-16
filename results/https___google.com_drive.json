@@ -1847,11 +1847,6 @@
                                                     "div": [
                                                         {
                                                             "a": {
-                                                                "span": "Gemini for Workspace"
-                                                            }
-                                                        },
-                                                        {
-                                                            "a": {
                                                                 "span": "Meet hardware"
                                                             }
                                                         },
@@ -2209,11 +2204,6 @@
                                                             "li": [
                                                                 {
                                                                     "a": {
-                                                                        "span": "Gemini for Workspace"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "a": {
                                                                         "span": "Meet hardware"
                                                                     }
                                                                 },
@@ -2568,18 +2558,6 @@
                         "div": {
                             "div": {
                                 "div": [
-                                    {
-                                        "gws-tooltip": {
-                                            "div": {
-                                                "span": "Premium feature"
-                                            },
-                                            "gws-popover": {
-                                                "div": {
-                                                    "p": "This feature is available on"
-                                                }
-                                            }
-                                        }
-                                    },
                                     {
                                         "h2": "Make smarter decisions with Gemini in Drive"
                                     },
