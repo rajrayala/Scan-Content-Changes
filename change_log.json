@@ -11235,5 +11235,21 @@
             }
         },
         "timestamp": "2025-02-02T01:06:09.703156"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": "February is Black History Month,",
+                            "a": "learn more with Google Arts & Culture"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2025-02-03T01:04:40.639595"
     }
 ]
