@@ -36,5 +36,24 @@
             }
         },
         "timestamp": "2025-02-14T01:07:35.931674"
+    },
+    {
+        "url": "https://google.in",
+        "changes": {
+            "dictionary_item_removed": {
+                "root['center']['div']": {
+                    "div": {
+                        "div": {
+                            "span": [
+                                "See how",
+                                "are using AI to grow"
+                            ],
+                            "a": "50 Google Workspace customers across 50 states"
+                        }
+                    }
+                }
+            }
+        },
+        "timestamp": "2025-02-15T01:07:04.113850"
     }
 ]
