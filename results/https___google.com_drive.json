@@ -96,79 +96,105 @@
                                                     "div": {
                                                         "div": [
                                                             {
-                                                                "div": [
-                                                                    {
-                                                                        "div": [
-                                                                            {
-                                                                                "a": [
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": "Gmail"
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": "Calendar"
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": "Drive"
-                                                                                        }
+                                                                "div": {
+                                                                    "div": [
+                                                                        {
+                                                                            "a": [
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Gmail"
                                                                                     }
-                                                                                ]
-                                                                            },
-                                                                            {
-                                                                                "a": [
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": "Meet"
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": "Docs"
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": "Sheets"
-                                                                                        }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Drive"
                                                                                     }
-                                                                                ]
-                                                                            },
-                                                                            {
-                                                                                "a": [
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": "Slides"
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": "Chat"
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": "Vids"
-                                                                                        }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Meet"
                                                                                     }
-                                                                                ]
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    {
-                                                                        "a": {
-                                                                            "span": "See all apps"
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Chat"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Calendar"
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "a": [
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Docs"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Sheets"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Slides"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Forms"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Sites"
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "a": [
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Gemini app"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "NotebookLM"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Vids"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "Keep"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": "AppSheet"
+                                                                                    }
+                                                                                }
+                                                                            ]
                                                                         }
-                                                                    }
-                                                                ]
+                                                                    ]
+                                                                }
                                                             },
                                                             {
                                                                 "a": [
+                                                                    "AI Solutions",
+                                                                    "Security",
                                                                     "Admin console",
-                                                                    "Add-ons"
+                                                                    "Add-ons",
+                                                                    "See more apps"
                                                                 ]
                                                             }
                                                         ]
@@ -501,117 +527,156 @@
                                                 "div": {
                                                     "div": [
                                                         {
-                                                            "div": [
-                                                                {
-                                                                    "div": [
-                                                                        "Products",
-                                                                        {
-                                                                            "a": {
-                                                                                "span": "See all apps"
-                                                                            }
+                                                            "div": {
+                                                                "div": [
+                                                                    {
+                                                                        "div": {
+                                                                            "a": [
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Gmail",
+                                                                                            "Custom business email"
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Drive",
+                                                                                            "Cloud storage"
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Meet",
+                                                                                            "Video and voice conferencing"
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Chat",
+                                                                                            "Messaging for teams"
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Calendar",
+                                                                                            "Shared calendars"
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
                                                                         }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "div": [
-                                                                        {
-                                                                            "div": {
-                                                                                "a": [
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": [
-                                                                                                "Gmail",
-                                                                                                "Custom business email"
-                                                                                            ]
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": [
-                                                                                                "Calendar",
-                                                                                                "Shared calendars"
-                                                                                            ]
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": [
-                                                                                                "Drive",
-                                                                                                "Cloud storage"
-                                                                                            ]
-                                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "div": {
+                                                                            "a": [
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Docs",
+                                                                                            "Word processing"
+                                                                                        ]
                                                                                     }
-                                                                                ]
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "div": {
-                                                                                "a": [
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": [
-                                                                                                "Meet",
-                                                                                                "Video and voice conferencing"
-                                                                                            ]
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": [
-                                                                                                "Docs",
-                                                                                                "Word processing"
-                                                                                            ]
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": [
-                                                                                                "Sheets",
-                                                                                                "Spreadsheets"
-                                                                                            ]
-                                                                                        }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Sheets",
+                                                                                            "Spreadsheets"
+                                                                                        ]
                                                                                     }
-                                                                                ]
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "div": {
-                                                                                "a": [
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": [
-                                                                                                "Slides",
-                                                                                                "Presentation builder"
-                                                                                            ]
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": [
-                                                                                                "Chat",
-                                                                                                "Messaging for teams"
-                                                                                            ]
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "div": {
-                                                                                            "div": [
-                                                                                                "Vids",
-                                                                                                "Video editor"
-                                                                                            ]
-                                                                                        }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Slides",
+                                                                                            "Presentation builder"
+                                                                                        ]
                                                                                     }
-                                                                                ]
-                                                                            }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Forms",
+                                                                                            "Online forms and surveys"
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Sites",
+                                                                                            "Team and project sites"
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
                                                                         }
-                                                                    ]
-                                                                }
-                                                            ]
+                                                                    },
+                                                                    {
+                                                                        "div": {
+                                                                            "a": [
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Gemini app",
+                                                                                            "AI assistant"
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "NotebookLM",
+                                                                                            "AI research assistant"
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Vids",
+                                                                                            "Video editor"
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "Keep",
+                                                                                            "Digital notes"
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "div": {
+                                                                                        "div": [
+                                                                                            "AppSheet",
+                                                                                            "No-code apps and automations"
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
                                                         },
                                                         {
                                                             "a": [
+                                                                "AI Solutions",
+                                                                "Security",
                                                                 "Admin console",
-                                                                "Add-ons"
+                                                                "Add-ons",
+                                                                "See more apps"
                                                             ]
                                                         }
                                                     ],
@@ -1017,117 +1082,156 @@
                                             "div": {
                                                 "div": [
                                                     {
-                                                        "div": [
-                                                            {
-                                                                "div": [
-                                                                    "Products",
-                                                                    {
-                                                                        "a": {
-                                                                            "span": "See all apps"
-                                                                        }
+                                                        "div": {
+                                                            "div": [
+                                                                {
+                                                                    "div": {
+                                                                        "a": [
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Gmail",
+                                                                                        "Custom business email"
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Drive",
+                                                                                        "Cloud storage"
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Meet",
+                                                                                        "Video and voice conferencing"
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Chat",
+                                                                                        "Messaging for teams"
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Calendar",
+                                                                                        "Shared calendars"
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ]
                                                                     }
-                                                                ]
-                                                            },
-                                                            {
-                                                                "div": [
-                                                                    {
-                                                                        "div": {
-                                                                            "a": [
-                                                                                {
-                                                                                    "div": {
-                                                                                        "div": [
-                                                                                            "Gmail",
-                                                                                            "Custom business email"
-                                                                                        ]
-                                                                                    }
-                                                                                },
-                                                                                {
-                                                                                    "div": {
-                                                                                        "div": [
-                                                                                            "Calendar",
-                                                                                            "Shared calendars"
-                                                                                        ]
-                                                                                    }
-                                                                                },
-                                                                                {
-                                                                                    "div": {
-                                                                                        "div": [
-                                                                                            "Drive",
-                                                                                            "Cloud storage"
-                                                                                        ]
-                                                                                    }
+                                                                },
+                                                                {
+                                                                    "div": {
+                                                                        "a": [
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Docs",
+                                                                                        "Word processing"
+                                                                                    ]
                                                                                 }
-                                                                            ]
-                                                                        }
-                                                                    },
-                                                                    {
-                                                                        "div": {
-                                                                            "a": [
-                                                                                {
-                                                                                    "div": {
-                                                                                        "div": [
-                                                                                            "Meet",
-                                                                                            "Video and voice conferencing"
-                                                                                        ]
-                                                                                    }
-                                                                                },
-                                                                                {
-                                                                                    "div": {
-                                                                                        "div": [
-                                                                                            "Docs",
-                                                                                            "Word processing"
-                                                                                        ]
-                                                                                    }
-                                                                                },
-                                                                                {
-                                                                                    "div": {
-                                                                                        "div": [
-                                                                                            "Sheets",
-                                                                                            "Spreadsheets"
-                                                                                        ]
-                                                                                    }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Sheets",
+                                                                                        "Spreadsheets"
+                                                                                    ]
                                                                                 }
-                                                                            ]
-                                                                        }
-                                                                    },
-                                                                    {
-                                                                        "div": {
-                                                                            "a": [
-                                                                                {
-                                                                                    "div": {
-                                                                                        "div": [
-                                                                                            "Slides",
-                                                                                            "Presentation builder"
-                                                                                        ]
-                                                                                    }
-                                                                                },
-                                                                                {
-                                                                                    "div": {
-                                                                                        "div": [
-                                                                                            "Chat",
-                                                                                            "Messaging for teams"
-                                                                                        ]
-                                                                                    }
-                                                                                },
-                                                                                {
-                                                                                    "div": {
-                                                                                        "div": [
-                                                                                            "Vids",
-                                                                                            "Video editor"
-                                                                                        ]
-                                                                                    }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Slides",
+                                                                                        "Presentation builder"
+                                                                                    ]
                                                                                 }
-                                                                            ]
-                                                                        }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Forms",
+                                                                                        "Online forms and surveys"
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Sites",
+                                                                                        "Team and project sites"
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ]
                                                                     }
-                                                                ]
-                                                            }
-                                                        ]
+                                                                },
+                                                                {
+                                                                    "div": {
+                                                                        "a": [
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Gemini app",
+                                                                                        "AI assistant"
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "NotebookLM",
+                                                                                        "AI research assistant"
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Vids",
+                                                                                        "Video editor"
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "Keep",
+                                                                                        "Digital notes"
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "div": {
+                                                                                    "div": [
+                                                                                        "AppSheet",
+                                                                                        "No-code apps and automations"
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
                                                     },
                                                     {
                                                         "a": [
+                                                            "AI Solutions",
+                                                            "Security",
                                                             "Admin console",
-                                                            "Add-ons"
+                                                            "Add-ons",
+                                                            "See more apps"
                                                         ]
                                                     }
                                                 ],
